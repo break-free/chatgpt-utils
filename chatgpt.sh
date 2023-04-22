@@ -4,7 +4,7 @@
 # Script that calls ChatGPT with questions written on the command line (not
 # quoted, no '' or ""). Can pass data to ChatGPT using:
 #
-#     `chatgpt.sh <OPENAI_TOKEN> use this data $(cat example.csv)
+#     `chatgpt.sh <OPENAI_TOKEN> average this data $(cat example.csv)
 #
 # ... or similar.
 #
@@ -12,13 +12,13 @@
 #
 #     https://kadekillary.work/posts/1000x-eng/.
 #
-# Note that orginal code is in `fish`, and was coed into `bash`
+# Note that orginal code is in `fish`, and was coded into `bash`
 #
-# @author: Chris Mills, cjmills@gmail.com
-# @date: Apr 3, 2023
+# @author: Chris Mills, cmills@breakfreesolutions.com
+# @date: Apr 21, 2023
 ##
 
-OPENAI_KEY="$1" # API Key
+OPENAI_KEY="$1" # First argument is the API Key
 PROMPT="${@:2}" # Capture all arguments after script as query to GPT.
 
 # model: gpt-4 is in private beta (have to get from waitlist)
