@@ -2,9 +2,14 @@
 
 This is a collection of scripts for ChatGPT usage developed by BreakFree Solutions staff.
 
-| Utility | Description | Comments |
-| :--- | :--- | :--- |
-| chatgpt.sh | Uses an API Token passed as a command line parameter to communicate with ChatGPT from a `bash` terminal session. | Usage: chatgpt.sh <OPENAI_API_TOKEN> |
+[cols="1,1,1"]
+|===
+| Utility | Description | Comments 
+
+| chatgpt.sh 
+| Uses an API Token passed as a command line parameter to communicate with ChatGPT from a `bash` terminal session. 
+| Usage: chatgpt.sh <OPENAI_API_TOKEN> |
+|===
 
 == Questions or Comments
 
