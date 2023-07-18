@@ -28,7 +28,7 @@ curl https://api.openai.com/v1/chat/completions -s \
     -H "Content-Type: application/json" \
     -H "Authorization: Bearer $OPENAI_KEY" \
     -d '{
-          "model": "gpt-3.5-turbo",
+          "model": "gpt-4",
           "messages": [{ "role": "user", "content": "'"$PROMPT"'" }],
           "temperature": 0.7,
           "stream": false
